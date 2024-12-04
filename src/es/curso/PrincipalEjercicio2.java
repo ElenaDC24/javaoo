@@ -5,6 +5,7 @@ public class PrincipalEjercicio2 {
 	public static void main(String[] args) {
 		
 			String cadena= "hola amigo, que tal estas?";
+			
 			for (int i=0;i<cadena.length();i++) {
 				
 			//System.out.println(cadena.charAt(i));
