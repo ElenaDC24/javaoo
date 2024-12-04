@@ -1,0 +1,16 @@
+package es.curso;
+
+public class PrincipalEjercicio1 {
+
+	public static void main(String[] args) {
+
+		int[] lista = new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+		int i = 0;
+		while (i < lista.length) {
+			System.out.println(lista[i]*lista[i]);
+			i++;
+			//imprimir por pantalla con un bucle WHILE el cuadrado de los primeros 10 numeros
+		}
+	}
+}
