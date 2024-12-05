@@ -1,27 +1,36 @@
 package es.curso;
 
 public class Cuadrado {
-	private double lado1;
-	private double lado2;
-	}
-
-	public double getLado1() {
+	private int lado1;
+	private int lado2; {
+	
+	public int getLado1() {
 		return lado1;
 	}
 
-	public void setLado1(double lado1) {
-		if(lado1>0)
+	public void setLado1(int lado1) {
 		this.lado1 = lado1;
+		this.lado2 = lado2;
 	}
 
-	public double getLado2() {
+	public int getLado2() {
 		return lado2;
 	}
 
-	public void setLado2(double lado2) {
-		if(lado2>0)
+	public void setLado2(int lado2) {
+		this.lado1 = lado2;
 		this.lado2 = lado2;
+		
 	}
+	public Cuadrado(int lado1, int lado2) {
 	
+		this.lado1= lado1;
+		this.lado2= lado2;
+}
+
+	public static double area(int lado) {
+		
+		return lado*lado;
+	}
 	
 }
